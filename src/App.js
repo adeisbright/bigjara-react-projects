@@ -1,11 +1,14 @@
 import { lazy, Suspense } from "react";
+import ErrorBoundoundary from "./ErrorBoundary";
 const Todos = lazy(() => import("./Components/TodoNoRedux/Todos"));
 
 const App = () => {
     return (
-        <Suspense fallback={<p>Loading ...</p>}>
-            <Todos />
-        </Suspense>
+        <ErrorBoundoundary>
+            <Suspense fallback={<p>Loading ...</p>}>
+                <Todos />
+            </Suspense>
+        </ErrorBoundoundary>
     );
 };
 
