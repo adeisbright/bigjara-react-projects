@@ -9,6 +9,7 @@ const header = {
     homeName: "Le Todo",
     navList: MenuLinks,
     navClass: "main-nav pad-5",
+    homeUrl: "/",
 };
 
 const LandingPage = () => {
@@ -41,7 +42,7 @@ const LandingPage = () => {
                 </div>
             </section>
             <footer className="center-text relative">
-                <p class="fixed-bottom">
+                <p className="fixed-bottom">
                     &copy; TDM {currentYear}. All Rights Reserved
                 </p>
             </footer>
