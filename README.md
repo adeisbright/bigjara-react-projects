@@ -1,7 +1,28 @@
-<<<<<<< HEAD
-# Todo Manager Web App
-=======
-# todo-manager-client
-A web client built with React to consume Todo API.
-A robust react guide
->>>>>>> ec7eecff8d25b5bead9c4cd35d389b49fa66dd19
+# React Using ES6 CLASS
+
+This repos contains code that touches the fundamentals of React.
+It covers the basic ideas such as :
+
+1. JSX , Elements and Components
+
+1. Props and State
+
+1. Event Handling
+
+1. Conditional Rendering
+
+And much more
+
+## How To Run
+
+To run this code , you will need to do the following :
+
+1. Assuming you do not have the dependency all installed on your machine , do npm install
+
+1. To launch the development server , you can either run :
+   `npm start
+
+or
+
+npm run devstart
+`
