@@ -24,7 +24,7 @@ export default class LocalStorage {
     remove(name) {
         try {
             if (!this.hasField(name)) {
-                throw new Error("Attempting to remove an unexistent field");
+                throw new Error("Attempting to remove an non-existing field");
             }
             delete this.storage[name];
             return this.storage;
@@ -36,7 +36,7 @@ export default class LocalStorage {
     update(name, data) {
         try {
             if (!this.hasField(name)) {
-                throw new Error("Attempting to update an unexistent field");
+                throw new Error("Attempting to update an non-existing field");
             }
             this.storage[name] = JSON.stringify(data);
             return this.storage;
