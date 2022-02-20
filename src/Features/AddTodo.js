@@ -18,7 +18,6 @@ const AddTodo = ({ setItems }) => {
     let [file, setFile] = useState("");
     const [show, setShow] = useState(false);
     let [response, setResponse] = useState("");
-    //let [createEvent, setCreatedEvent] = useState(false);
 
     const serverUrl = process.env.REACT_APP_TODO_SERVER;
 

@@ -3,7 +3,6 @@ import SignupForm from "../Components/SignupForm";
 import FormSidebar from "../Components/FormSidebar";
 import { useHistory } from "react-router-dom";
 import { sendData } from "../lib/FetchHelper";
-//import axios from "axios";
 
 const sidebar = {
     classTag: "login-sidebar  fr-md-6",
@@ -49,7 +48,6 @@ const Register = () => {
     const handleName = (e) => {
         e.preventDefault();
         setUserName(e.target.value);
-        //felele fele@gmail.com 2421994adeADE#
     };
     const handleEmail = (e) => {
         e.preventDefault();

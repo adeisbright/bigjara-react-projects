@@ -24,8 +24,6 @@ const App = () => {
             );
         }
         setLoading(false);
-        // console.log(window.location.search);
-        // console.log(window.location);
     };
     useEffect(() => {
         load();

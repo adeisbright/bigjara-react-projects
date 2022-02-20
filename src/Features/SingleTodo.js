@@ -24,7 +24,7 @@ const SingleTodo = () => {
 
     let loginToken = storage.find("auth_token");
     let url = process.env.REACT_APP_TODO_SERVER + pathname;
-    //Ref for feedback as user leaves form field
+
     let titleRef = useRef(null);
 
     const handleSubmit = (e) => {

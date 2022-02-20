@@ -9,7 +9,6 @@ import Register from "./Pages/Register";
 import Login from "./Pages/Login";
 import Dashboard from "./Pages/Dashboard";
 
-//Import Pages
 const LandingPage = lazy(() => import("./Pages/LandingPage"));
 const API = lazy(() => import("./Pages/API"));
 const SingleTodo = lazy(() => import("./Features/SingleTodo"));
